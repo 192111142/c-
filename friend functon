@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+class box{
+  double width;
+
+  public:
+    friend void pintwidth(BOX bOX);
+    void setwidth(double wid);
+};
+
+ void box::setwidth(double wid){
+  width=wid;
+}
+
+  void printwidth(box BOX){
+     cout<<"width of box:"<<
+   box.width<<endl;
+}
+
+
+
+  int main(){
+     Box box;
+     box.setwidth(10.0);
+     printwidth(Box);
+     return 0;
+}
