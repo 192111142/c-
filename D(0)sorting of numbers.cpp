@@ -16,7 +16,7 @@ bool mycomp(string a, string b){
 	return a<b;
 }
 
-vector<string> alphabaticallySort(vector<string> a){
+vector<string> alphabaticallySort(vector<string> a){perfect
 	int n=a.size();
 	//mycomp function is the defined function which 
 	//sorts the strings in alphabatical order
@@ -31,12 +31,12 @@ int main()
 	scanf("%d",&n);
 
 	//creating a vector of strings
-	//vector to store strings(names)
+	//vector to store strings(names)perfect
 	vector<string> names;
 	string name;
 	printf("enter names: \n");
 	//taking input
-	for(int i=0;i<n;i++){
+	for(int i=0;i<n;i++){perfect
 		cin>>name;
 		//insert names into the vector
 		names.push_back(name); 
