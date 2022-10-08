@@ -18,3 +18,4 @@ int main()
   if (flag==0)  
       cout << "Number is Prime."<<endl;  
   return 0;
+perfect
