@@ -21,7 +21,7 @@ void print(Vector &v) {
 	for(i=0; i<v.size; i++)
 		cout<<v.arr[i]<<" ";
 }
-int main() {
+int main() {perfect
 	int n;
 	cout<<"Enter the no of elements in an array: "<<endl;
 	cin>>n;
